@@ -1,0 +1,247 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1{
+      color: #d6000d;
+  }
+
+
+  .container header {
+    margin-top: 60px;
+  }
+  header ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header ul li {
+    padding: 0 10px;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  header ul li .button-red {
+    background: #d6000d;
+    padding: 7px 37px;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    font-size: 50px;
+    position: absolute;
+    left: 108px;
+    top: 34px;
+  }
+  .image img {
+    width: 360px;
+  }
+  .container .main-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .container .main-content .text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+  .container .main-content .text span {
+    display: block;
+    font-size: 50px;
+    color: #d6000d;
+  }
+  .container .main-content button {
+    width: 70%;
+    height: 47px;
+    font-size: 20px;
+    margin-top: 36px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    background: #d6000d;
+  }
+  .services {
+    height: 70vh;
+  }
+  
+  .service-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .container .services .service-box ul li {
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .container .services .service-box ul li i {
+    padding: 0 7px;
+    color: #d6000d;
+  }
+  
+  .container .services .call {
+    margin-left: 16%;
+  }
+  .container .services .call h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .container .services .call input {
+    width: 170px;
+    padding: 13px 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+  }
+  .container .services .call input[type="text"] {
+    background: #ccc;
+  }
+  
+  .container .services .call input[type="button"] {
+    background: #d6000d;
+    color: #fff;
+  }
+  
+  .container .clients {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user {
+    margin: 10px 20px 0 0;
+  }
+  .container .clients .card p {
+    font-size: 0.75rem;
+    line-height: normal;
+  }
+  
+  .container .clients .card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .container .clients .card h5 {
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 0.9 rem;
+  }
+  
+  .container .clients .card {
+    padding: 20px;
+    background: #ccc;
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+  }
+  
+  .container-footer {
+    height: 30vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .container-footer .marca h3 {
+    font-size: 2rem;
+    line-height: 2;
+  }
+  
+  .container-footer .marca span {
+    font-size: 1rem;
+  }
+  
+  .container-footer .marca {
+    width: 25%;
+    padding: 0 20px;
+  }
+  .container-footer .sobre {
+    width: 25%;
+    padding: 0 20px;
+  }
+  .container-footer .contato {
+    width: 25%;
+    padding: 0 20px;
+  }
+  .container-footer .redes-sociais {
+    width: 25%;
+  }
+  .container-footer .sobre h3 {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+  
+  .container-footer .sobre span {
+    font-size: 1rem;
+  }
+  
+  .container-footer .contato h3 {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+  
+  .container-footer .contato span {
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
+  .container-footer .redes-sociais h3 {
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+  
+  .container-footer .redes-sociais i {
+    margin: 0px 10px 0 0;
+  }
+  
+  @media (max-width: 1100px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 850px) {
+  
+   
+  .container .main-content {
+      flex-direction: column;
+       height: 100vh;
+  }
+  
+    .main-content .text {
+      text-align: center;
+    }
+  
+    .services{
+        height: 100vh;
+    }
+  
+  .service-box{
+      flex-direction: column-reverse;
+  }
+  .call{
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+  }
+  }
